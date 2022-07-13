@@ -9,5 +9,6 @@ namespace TicketApp.Data
             : base(options)
         {
         }
+        public DbSet<Ticket> Tickets { get; set; }
     }
 }
